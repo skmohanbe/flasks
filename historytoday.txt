@@ -1,0 +1,277 @@
+    1  yum install python2
+    2  dnf install python2
+    3  pip2.7 install flask
+    4  ls l-
+    5  ls -l
+    6  vi firstflas.py
+    7  cat firstflas.py 
+    8  python2.7 firstflas.py 
+    9  systemctl status firewalld
+   10  python2.7 firstflas.py 
+   11  python2.7 firstflas.py &
+   12  nohup python2.7 firstflas.py &
+   13  tail /var/log/messages 
+   14  w
+   15  dnf config-manager --add-repo=https://download.docker.com/linux/centos/docker-ce.repo
+   16  dnf list docker-ce --showduplicates | sort -r
+   17  dnf install https://download.docker.com/linux/centos/7/x86_64/stable/Packages/containerd.io-1.2.6-3.3.el7.x86_64.rpm
+   18  dnf install docker-ce
+   19  docker run -d --name=mailhog-1 -p 8025:8025 -p 1025:1025 --restart=unless-stopped mailhog/mailhog
+   20  systemctl start docker
+   21  docker run -d --name=mailhog-1 -p 8025:8025 -p 1025:1025 --restart=unless-stopped mailhog/mailhog
+   22  docker ps -a
+   23  docker run -d --name=mailhog-1 -p 8025:8025 -p 1025:1025 --restart=unless-stopped mailhog/mailhog
+   24  docker images
+   25  docker pull mailhog/mailhog
+   26  docker search mailhog
+   27  docker pull mailhog/mailhog
+   28  docker run -d --name=mailhog-1 -p 8025:8025 -p 1025:1025 --restart=unless-stopped mailhog/mailhog
+   29  docker search mailhog
+   30  docker run -d --name=mailhog-1 -p 8025:8025 -p 1025:1025 --restart=unless-stopped mailhog/mailhog
+   31   python2.7 firstflas.py
+   32  netstat -rn
+   33  netstat -tulnp
+   34  curl http://localhost:5000/
+   35  lsof -i :5000
+   36  ps -ef 
+   37  ps -ef | grep -i python
+   38  kill -9 13653 13655
+   39  ps -ef | grep -i python
+   40  curl http://localhost:5000/
+   41   python2.7 firstflas.py
+   42  docker run -d --name=mailhog-1 -p 8025:8025 -p 1025:1025 --restart=unless-stopped mailhog/mailhog
+   43  docker pull mailhog/mailhog
+   44  docker pull mailhog/mailhog -vvv
+   45  docker pull mailhog/mailhog 
+   46  ls -l
+   47  more firstflas.py 
+   48  vi firstflas.py 
+   49   python2.7 firstflas.py
+   50  env
+   51  python2.7 -env
+   52  ls -l
+   53  vi 2ndflask.py
+   54  python2 2ndflask.py 
+   55  vi /etc/ssh/sshd_config 
+   56  sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/' /etc/ssh/sshd_config
+   57  sed -i 's/ChallengeResponseAuthentication no/ChallengeResponseAuthentication yes/' /etc/ssh/sshd_config
+   58  systemctl restart sshd
+   59  python2 2ndflask.py
+   60  dnf install httpd
+   61  systemctl start httpd
+   62  systemctl status httpd
+   63  netstat -tulnp
+   64  python2 2ndflask.py
+   65  vi 2ndflask.py 
+   66  python2 2ndflask.py
+   67  python -m SimpleHTTPServer 8080
+   68  python2 -m SimpleHTTPServer 8080
+   69  python2 2ndflask.py -m SimpleHTTPServer 8080
+   70  vi 2ndflask.py 
+   71  python2 2ndflask.py 0.0.0.0:8080
+   72  vi 2ndflask.py 
+   73  python2 2ndflask.py 
+   74  vi 3rdflask.py
+   75  python2 3rdflask.py 
+   76  cat 3rdflask.py 
+   77  ls- l
+   78  ls -l
+   79  cat firstflas.py 
+   80  ]
+   81  vi restapi.py
+   82  python2 restapi.py 
+   83  vi restapi.py
+   84  python2 restapi.py 
+   85  cat restapi.py 
+   86  python2 restapi.py 
+   87  vi restapi.py
+   88  python2 restapi.py 
+   89  vi restapi.py
+   90  python2 restapi.py 
+   91  ls -l
+   92  cat restapi.py 
+   93  vi restapi.py q
+   94  cat restapi.py 
+   95  python2 restapi.py 
+   96  cat restapi.py 
+   97  vi restapi.py 
+   98  cat restapi.py 
+   99  python2 restapi.py 
+  100  vi restapi.py 
+  101  python2 restapi.py 
+  102  python2 3rdflask.py 
+  103  cat 3rdflask.py 
+  104  python2 3rdflask.py 
+  105  vi restapi.py 
+  106  python2 restapi.py 
+  107  vi 3rdflask.py 
+  108  cat restapi.py 
+  109  cat 3rdflask.py
+  110  vi restapi.py 
+  111  python2 restapi.py 
+  112  vi restapi.py 
+  113  python2 restapi.py 
+  114  python2 3rdflask.py 
+  115  cat 3rdflask.py 
+  116  python2 3rdflask.py 
+  117  vi stud.py
+  118  python2 stud.py 
+  119  pip2 install flask_restful
+  120  python2 stud.py 
+  121  pip2 install sqlalchemy
+  122  python2 stud.py 
+  123  pip2 install flask.ext.jsonpify
+  124  pip2 install flask.ext
+  125  cat stud.py 
+  126  pip2 install jsonify
+  127  python2 stud.py 
+  128  pip install flask flask-jsonpify flask-sqlalchemy flask-restful
+  129  pip2 install flask flask-jsonpify flask-sqlalchemy flask-restful
+  130  python2 stud.py 
+  131  virtualenv venv
+  132  python2 stud.py 
+  133  pip2.7 install flask flask-jsonpify flask-sqlalchemy flask-restful
+  134  python2.7 sqlite chinook.db
+  135  python2.7 sqlite3 chinook.db
+  136  pip2 install sqlite3
+  137  yum install sqlite3
+  138  yum install SQlite3
+  139  pip2.7 install SQlite3
+  140  ls -la
+  141  ls -l
+  142  vi retest.py
+  143  python2.7 retest.py 
+  144  pip2.7 install MARIA
+  145  pip2.7 install maria
+  146  pip -
+  147  pip2.7 -?
+  148  pip2.7 search -?
+  149  pip2.7 search maria
+  150  pip2.7 search all
+  151  pip --help
+  152  pip2.7 --help
+  153  pip2.7 list
+  154  pip2.7 show
+  155  pip2.7 show SQLAlchemy
+  156  pip2.7 search SQL*
+  157  pip2.7 search SQL* | grep -i lite
+  158  pip2.7 search sql** | grep -i lite
+  159  pip2.7 search maria* | grep -i lite
+  160  pip2.7 search psycopg2
+  161  pip2.7 search 
+  162  pip2.7 search query
+  163  TMOUT=0
+  164  env
+  165  cat /etc/*release
+  166  yum install postgresql-server postgresql-contrib
+  167  postgresql-setup initdb
+  168  grep -i post /etc/passwd
+  169  su - postgres
+  170  vi /var/lib/pgsql/data/pg_hba.conf
+  171  systemctl start postgresql
+  172  systemctl status postgresql
+  173  su - postgres
+  174  pip2.7 install psycopg2
+  175  pip2.7 install psycopg2-binary
+  176  vi database.ini
+  177  mv database.ini database.py
+  178  vi database.ini
+  179  su - postgres
+  180  cat database.ini 
+  181  ls -l
+  182  cat database.
+  183  cat database.py 
+  184  python2.7 database.py 
+  185  pip2.7 install config
+  186  python2.7 database.py 
+  187  pip2.7 search config
+  188  pip2.7 install os-config
+  189  python2.7 database.py 
+  190  which python
+  191  which python2.7
+  192  ln -s /usr/bin/python2.7 /usr/bin/python
+  193  python2.7 database.py 
+  194  vi database.py
+  195  python2.7 database.py 
+  196  vi database.py 
+  197  python2.7 database.py 
+  198  vi database.py 
+  199  chmod +x database.py
+  200  ./database.py
+  201  cat database.py
+  202  vi database.py
+  203  cat database.py
+  204  ./database.py
+  205  pip2.7 install configparser
+  206  ./database.py
+  207  vi database.py 
+  208  vi database.ini
+  209  ./database.py
+  210  vi database.ini
+  211  ./database.py
+  212  vi database.ini
+  213  ./database.py
+  214  vi database.ini
+  215  ./database.py
+  216  more database.py 
+  217  vi database.ini
+  218  ./database.py
+  219  vi database.ini
+  220  ./database.py
+  221  ls -l
+  222  python database.py
+  223  pip list 
+  224  pip2 list
+  225  pip2 show configparser
+  226  pip2 show Flask
+  227  su - postgres
+  228  vi database_table.py
+  229  cat database.py 
+  230  vi database_table.py
+  231  chmod +x database_table.py
+  232  ./database_table.py
+  233  vi database_table.py
+  234  ./database_table.py
+  235  vi database.ini 
+  236  ./database_table.py
+  237  vi database.ini 
+  238  vi database_table.py
+  239  su - postgres
+  240  l s-l
+  241  ls -l
+  242  git clone https://github.com/skmohanbe/flasks.git
+  243  dnf install git
+  244  git clone https://github.com/skmohanbe/flasks.git
+  245  ls -la
+  246  ls -l
+  247  mv *.py flasks/
+  248  ls -l
+  249  mv *.ini flasks/
+  250  ls -l
+  251  cd flasks/
+  252  ls -la
+  253  git status -s
+  254  git add .
+  255  git status -s
+  256  git commit -m "my flask cods"
+  257  git rm database.ini
+  258  git rm
+  259  git rm -q database.ini
+  260  git rm -r database.ini
+  261  ls -la
+  262  rm -rf .git
+  263  git branc
+  264  git branch
+  265  git init
+  266  ls l
+  267  ls -l
+  268  git add .
+  269  git commit -m "my flask files"
+  270  git status s-s
+  271  git status -s
+  272  git branch
+  273  git branch -r
+  274  git remote add origin https://github.com/skmohanbe/flasks.git
+  275  git branch -r
+  276  git push origin master
+  277  history > historytoday.txt
