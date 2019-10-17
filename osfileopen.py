@@ -2,11 +2,13 @@ import flask
 import os
 import markdown
 
-from flask import Flask, request, g
+from flask import Flask, request, g, render_template, jsonify, request, Response
 from flask_restful import Resource, Api, reqparse
 
 app = Flask(__name__)
 
+def not_found():
+	return render_template('404.html'), 404
 
 @app.route("/")
 def index():
@@ -17,4 +19,7 @@ def index():
         # Convert to HTML
         return markdown.markdown(content)
 
-app.run(host='0.0.0.0',port=41000)
+if __name__ == '__main__':
+    app.error_handler_spec[404] = not_found
+    app.run(host='0.0.0.0',port=33331)
+
